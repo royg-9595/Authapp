@@ -10,7 +10,7 @@ Sign Up , Sign In and Signout functions are available.
 
 ## Django Admin Page 
 
-![Screenshot (69)](Screenshot (69).png)
+![Screenshot (69)](https://github.com/royg-9595/Authapp/blob/25f0573a4fa10851068f4d57ca66efe8212286be/Screenshot%20(69).png)
 
 ## Super User
 
