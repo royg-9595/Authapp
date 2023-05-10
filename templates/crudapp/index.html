@@ -7,22 +7,27 @@
     <title>Auth</title>
 </head>
 <body>
-    {% for message in messages %}
-    <div class="alert alert-{{messgaes.tags}} alert-dimissible fade show" role="alert">
-    <strong>Nessages:</strong>{{messages}}
-    <button type="button" class="close" data dismiss="alert" aria-label="close">
-    <span aria-hidden='true'
-    <span>
 
+    {% for message in messages %}
+    <div class="alert alert-{{ messgae.tags }} alert-dismissible fade show" role="alert">
+    <strong>Message:</strong>{{ message }}
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true"> &times;</span>
+    </button>
+    </div>
+    {% endfor %}
+
+    <h1> Welcome to my first Auth App </h1>
 
     {%if user.is_authenticated%}
-    <h3> Hello {{fname}}</h3>
-    <h1> Welcome to my first Auth App </h1>
-    {%endif%}
-
+    <h3> Hello </h3>
+    <h4>Hi you are logged In</h4>
+    <button type="submit"><a href="/signout">Signout</a></button>
+    
+    {%else%}
     <button type="submit"><a href="/signup">Signup</a></button>
-    <button type="submit"><a href="/signin"></a>Signin</a></button>
-    <button type="submit"><a href="/signout"></a>Signout</a></button>
+    <button type="submit"><a href="/signin">Signin</a></button>
+    {%endif%}
     
 </body>
 </html>

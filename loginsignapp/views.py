@@ -2,7 +2,7 @@ from django.shortcuts import redirect, render
 from django.http import HttpResponse
 from django.contrib.auth.models import User
 from django.contrib import messages
-from django.contrib.auth import authenticate,login
+from django.contrib.auth import authenticate,login,logout
 
 def home(request):
     return render(request, "crudapp/index.html")
@@ -39,14 +39,16 @@ def signin(request):
         
         if user is not None:
             login(request,user)
-            fname1= user.last_login
-            return render(request, "crudapp/index.html",{'fname':fname1} )
+            return render(request, "crudapp/index.html")
         else:
             messages.error(request,"Incorrect Credentials")
             return redirect('home')
     return render(request, "crudapp/signin.html")
 def signout(request):
-    pass
+    logout(request)
+    messages.success(request, "Logged out successfully")
+    return redirect('home')
+
 
 
 # Create your views here.

@@ -1,3 +1,7 @@
 {
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "ipynb.pasteImagesAsAttachments.enabled": false,
+    "git.autorefresh": false,
+    "git.enabled": true,
+    "git.enableStatusBarSync": false
 }
