@@ -10,28 +10,28 @@ Sign Up , Sign In and Signout functions are available.
 
 ## Django Admin Page 
 
-![Screenshot (69)](https://github.com/royg-9595/Authapp/blob/25f0573a4fa10851068f4d57ca66efe8212286be/Screenshot%20(69).png)
+![Screenshot (69)](https://github.com/royg-9595/Authapp/blob/118ca4ef5a3009c17b647502858d07304ca5dd0e/.vscode/Screenshot%20(69).png)
 
 ## Super User
 
-![Screenshot (70)](https://github.com/royg-9595/crudapp/assets/103624355/41bec721-2605-45db-a6d5-c848da05c045)
+![Screenshot (70)](https://github.com/royg-9595/Authapp/blob/118ca4ef5a3009c17b647502858d07304ca5dd0e/.vscode/Screenshot%20(70).png)
 
 ## Home page
 
-![Screenshot (71)](https://github.com/royg-9595/crudapp/assets/103624355/db18f0c2-7502-4afc-af9a-fc92f591aa50)
+![Screenshot (71)](https://github.com/royg-9595/Authapp/blob/118ca4ef5a3009c17b647502858d07304ca5dd0e/.vscode/Screenshot%20(71).png)
 
 ## Signup page
 
-![Screenshot (72)](https://github.com/royg-9595/crudapp/assets/103624355/e82b048d-6192-452a-a051-562837670292)
+![Screenshot (72)](https://github.com/royg-9595/Authapp/blob/118ca4ef5a3009c17b647502858d07304ca5dd0e/.vscode/Screenshot%20(72).png)
 
 ## SignIn page
 
-![Screenshot (73)](https://github.com/royg-9595/crudapp/assets/103624355/36d618b1-0f60-4ba9-b589-fd90a488f4bf)
+![Screenshot (73)](https://github.com/royg-9595/Authapp/blob/118ca4ef5a3009c17b647502858d07304ca5dd0e/.vscode/Screenshot%20(73).png)
 
 ## Home after signIn
 
-![Screenshot (74)](https://github.com/royg-9595/crudapp/assets/103624355/1a01739e-e82a-45f3-a96a-9bc20d67dca1)
+![Screenshot (74)](https://github.com/royg-9595/Authapp/blob/118ca4ef5a3009c17b647502858d07304ca5dd0e/.vscode/Screenshot%20(74).png)
 
 ## Home after Logout
 
-![Screenshot (75)](https://github.com/royg-9595/crudapp/assets/103624355/6aa8369d-7be4-4c1c-9317-3e756d2985cc)
+![Screenshot (75)](https://github.com/royg-9595/Authapp/blob/118ca4ef5a3009c17b647502858d07304ca5dd0e/.vscode/Screenshot%20(75).png)
