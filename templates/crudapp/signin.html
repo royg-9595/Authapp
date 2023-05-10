@@ -7,9 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Signin</h1>
-    <form action="" method="post" style="background-color: rgb(196, 255, 252);">
-    {% csrf_token %}
+        <h1>Signin</h1>
+        <form action="signin" method="post" style="background-color: rgb(196, 255, 252);">
+
+
         <label>Username</label>
         <input type="text" name="username" id="username" placeholder="Create a username(only letters and numbers)" Required>
         <br>
@@ -18,7 +19,7 @@
         <input type="text" name="password" id="password" placeholder="Enter your password" Required>
         <br>
         <br>
-        <button type="submit" >Sign Up</button>
+        <button type="submit" >Sign in</button>
 
     </form>
 </body>

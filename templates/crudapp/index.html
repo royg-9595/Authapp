@@ -7,7 +7,18 @@
     <title>Auth</title>
 </head>
 <body>
-    <h1> Welcome to my first Auth App  -- Roy</h1>
+    {% for message in messages %}
+    <div class="alert alert-{{messgaes.tags}} alert-dimissible fade show" role="alert">
+    <strong>Nessages:</strong>{{messages}}
+    <button type="button" class="close" data dismiss="alert" aria-label="close">
+    <span aria-hidden='true'
+    <span>
+
+
+    {%if user.is_authenticated%}
+    <h3> Hello {{fname}}</h3>
+    <h1> Welcome to my first Auth App </h1>
+    {%endif%}
 
     <button type="submit"><a href="/signup">Signup</a></button>
     <button type="submit"><a href="/signin"></a>Signin</a></button>
